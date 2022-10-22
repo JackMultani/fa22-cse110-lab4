@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 contained string values instead of int values. Therefore, result = num1 + num2 was added two strings instead of two ints and resulted in a concatenated string of two numbers being outputed as the sum. 
+2. To fix the bug, I would parse num1 and num2 into an int using parseInt(num1) and parseInt(num2). 
