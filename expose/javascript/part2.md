@@ -1,4 +1,4 @@
-1. 2 will be printed since 'i' was declared as a var in the for loop and thus and exists outside of the scope of the for loop.
+1. 3 will be printed since 'i' was declared as a var in the for loop and thus and exists outside of the scope of the for loop.
 2. 150 will be printed since 'discountedPrice' was declared as a var in the for loop and thus exists outside of the scope of the for loop.
 3. 150 will be printed since finalPRice was declared as a var in the scope of the function 'discountPrices' and thus exists throughout the rest of the function. 
 4. The function 'discountPrices' will return [50, 100, 150]. In addition, the function returns an array that contains the discounted prices of each item in 'prices' as each item in 'prices' is multiplied by (1 - discount) to obtain the discounted price and is pushed to the discounted array after being rounded.
